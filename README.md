@@ -1,19 +1,18 @@
 # Predicting-customer-buying-behaviour
 
 ## Introduction
-This repository contains a predictive machine learning model that identifies the likelihood of a customer making a booking. It showcases the process of data exploration, preparation, modelling, and evaluation. The main goal of the project is to use a RandomForest model because of its interpretability and ability to rank feature importance.
+In this repository, I've put together a neat machine learning model that predicts if a customer will make a booking. The cherry on top? I've used a RandomForest model as it's straightforward to interpret and awesome at ranking feature importance.
+Here's a glimpse of my process:
 
 ## Explore and Prepare the Dataset
-1) Begin with the “Getting Started” Jupyter Notebook for understanding the dataset. This includes analyzing the columns, looking at the statistical overview, and examining any missing data.
-2) Prepare the dataset for the predictive model. This involves handling missing values, encoding categorical variables, and scaling continuous variables.
-3) Consider feature engineering. Think about creating new features that could make your model perform better. This could include creating interaction terms, polynomial features, or extracting information from date/time columns.
+I started with the "Getting Started" Jupyter Notebook to familiarize myself with the dataset. I explored each column, generated a statistical overview of the data, and sought out any missing data.
+## Preparing the Data
+Next, I prepped the dataset for the RandomForest model. This step involved filling in missing values, translating categorical variables into a language that my model could comprehend, and scaling continuous variables. Here, I also brought my creativity into play. I engineered some new features that I believed could boost the model's performance.
 
 ## Train a Machine Learning Model
-1) Split the data into a training set and a testing set. This allows us to evaluate the model's performance on unseen data.
-2) Train a RandomForest model on your training data. RandomForest is a flexible, easy to use machine learning algorithm that produces excellent results most of the time, even without hyper-parameter tuning.
-3)Optimize your model by tuning hyperparameters. You can use methods like GridSearch or RandomSearch.
+After prepping, I split the data into a training set and a testing set. This allowed me to train my RandomForest model on known data and then test its performance on unseen data. The RandomForest model was my star performer here. It's a versatile, user-friendly algorithm that consistently delivers excellent results, even without hyper-parameter tuning. But I didn't stop there. I further refined my model by tuning its hyperparameters using techniques like GridSearch and RandomSearch.
 
 ## Evaluate Model and Present Findings
-1) Evaluate your model's performance using cross-validation. This helps to ensure your model's performance isn't due just to the specific arrangement of the data.
-2) Output evaluation metrics such as precision, recall, f1-score, and accuracy. These metrics give a better sense of your model's performance, beyond just the raw error.
-3) Visualize feature importance to understand which variables are most influential in predicting the outcome. RandomForest provides a simple way to do this.
+Finally, I put my model to the ultimate test. I evaluated its performance using cross-validation, ensuring that the results weren't just due to a particular arrangement of data. In presenting my findings, I included evaluation metrics such as precision, recall, f1-score, and accuracy to provide a well-rounded view of the model's performance. I also used RandomForest's feature importance visualization to highlight the key variables influencing the predictions.
+
+I hope you enjoy exploring this project as much as I did building it!
