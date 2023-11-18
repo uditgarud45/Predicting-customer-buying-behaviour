@@ -5,7 +5,7 @@ In this repository, I've put together a neat machine learning model that predict
 Here's a glimpse of my process:
 
 ## Explore and Prepare the Dataset
-I started with the "Getting Started" Jupyter Notebook to familiarize myself with the dataset. I explored each column, generated a statistical overview of the data, and sought out any missing data.
+I started with the Jupyter Notebook to familiarize myself with the dataset. I explored each column, generated a statistical overview of the data, and sought out any missing data.
 ## Preparing the Data
 Next, I prepped the dataset for the RandomForest model. This step involved filling in missing values, translating categorical variables into a language that my model could comprehend, and scaling continuous variables. Here, I also brought my creativity into play. I engineered some new features that I believed could boost the model's performance.
 
